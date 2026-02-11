@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="TiltTest"
+config/version="1.0.0"
+run/main_scene="uid://cibfkl7pn8v4l"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+IpAddress="*res://utils/ip_address.tscn"
+SocketManager="*res://utils/socket_manager.tscn"
+SignalBus="*res://utils/signal_bus.tscn"
+Convert="*res://utils/convert.tscn"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

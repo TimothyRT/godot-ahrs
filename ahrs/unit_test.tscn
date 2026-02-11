@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://66e6t26x86gu"]
+
+[ext_resource type="Script" uid="uid://dimiaqsew0ya2" path="res://ahrs/unit_test.gd" id="1_c6sju"]
+
+[node name="UnitTest" type="Node"]
+script = ExtResource("1_c6sju")

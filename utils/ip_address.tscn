@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4hyphjftn100"]
+
+[ext_resource type="Script" uid="uid://oyowjlftwmin" path="res://utils/ip_address.gd" id="1_ucw7d"]
+
+[node name="IpAddress" type="Node"]
+script = ExtResource("1_ucw7d")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cm6f73necp6dr"]
+
+[ext_resource type="Script" uid="uid://dt8n14kniwkl1" path="res://ahrs/concat.gd" id="1_k8rvc"]
+
+[node name="Concat" type="Node"]
+script = ExtResource("1_k8rvc")

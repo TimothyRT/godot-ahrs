@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c02qprct6pful"]
+
+[ext_resource type="Script" uid="uid://bipjt73relj6d" path="res://ahrs/tilt.gd" id="1_dc66t"]
+
+[node name="Tilt" type="Node"]
+script = ExtResource("1_dc66t")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://fu00x0j8pp0n"]
+
+[ext_resource type="Script" uid="uid://b41l0pcvxyfq6" path="res://ahrs/madgwick.gd" id="1_sqxed"]
+
+[node name="Madgwick" type="Node"]
+script = ExtResource("1_sqxed")

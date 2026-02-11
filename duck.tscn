@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://crr5qig3iepp7"]
+
+[ext_resource type="PackedScene" uid="uid://y40i01g4p6ru" path="res://Duck.glb" id="1_r8k62"]
+
+[node name="Duck" instance=ExtResource("1_r8k62")]
+
+[node name="Camera" parent="Node" index="1"]
+visible = false
